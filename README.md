@@ -91,6 +91,14 @@ PCAN-View 中的车窗命令、状态反馈及 UDS 调试记录，SecurityAccess
 
 H7 工程模块与 FreeRTOS 任务配置。
 
+### RC App A/B 构建
+
+![RC App Slot A Keil 构建结果](assets/rc-slot-a-build.png)
+
+![RC App Slot B Keil 构建结果](assets/rc-slot-b-build.png)
+
+Slot A 和 Slot B 均编译通过，结果为 0 Error、0 Warning，并通过构建后命令导出各自的 BIN。
+
 ## 代码目录
 
 - `gateway_h7/`：LIN Master、CAN 网关、UDS/OTA、NvM。
